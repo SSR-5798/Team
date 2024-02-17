@@ -1,0 +1,27 @@
+@import "../../css-config/mixins.scss";
+
+.users-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 10px;
+    padding: 20px 0 50px;
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+
+    @include md{
+        margin: 0 auto;
+    }
+
+    .users {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        row-gap: 25px;
+        column-gap: 20px;
+        flex-wrap: wrap;
+
+        @include md{
+            justify-content: flex-start;
+        }
+
+    }
+}

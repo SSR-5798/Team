@@ -1,0 +1,13 @@
+@import "../../css-config/mixins.scss";
+
+.title{
+    text-transform: capitalize;
+    font:600 24px "Poppins";
+    color:grey;
+    margin-bottom: 10px;
+    text-align: center;
+
+    @include md{
+        text-align: left;
+    }
+}
